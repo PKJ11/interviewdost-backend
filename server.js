@@ -13,7 +13,22 @@ app.use(cors({
 }));
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.json({
+    message: 'InterviewDost backend is running ✅',
+    port: PORT,
+    environment: {
+      GMAIL_USER: process.env.GMAIL_USER,
+      // ⚠️ Never expose passwords in production
+      GMAIL_PASSWORD: process.env.GMAIL_PASSWORD,
+      NODE_ENV: process.env.NODE_ENV,
+    }
+  });
+});
+
+
 // Email endpoint
+
 app.post('/api/send-email', async (req, res) => {
   const { subject, html, text, recipients } = req.body;
   console.log('Recipients:', recipients); // Add this line
