@@ -11,45 +11,14 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // MongoDB Connection
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://pratikkumarjhavnit:0vh0VaRm7BJlOGdF@cluster0.0zyfpgg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
 // MongoDB Models
-const Department = mongoose.model(
-  "Department",
-  new mongoose.Schema({
-    name: String,
-    description: String,
-    createdAt: { type: Date, default: Date.now },
-  })
-);
-
-const Subject = mongoose.model(
-  "Subject",
-  new mongoose.Schema({
-    departmentId: mongoose.Schema.Types.ObjectId,
-    name: String,
-    description: String,
-    color: String,
-    icon: String,
-    createdAt: { type: Date, default: Date.now },
-  })
-);
-
-const Chapter = mongoose.model(
-  "Chapter",
-  new mongoose.Schema({
-    subjectId: mongoose.Schema.Types.ObjectId,
-    title: String,
-    description: String,
-    content: String,
-    pdfUrl: String,
-    tests: Array,
-    createdAt: { type: Date, default: Date.now },
-  })
-);
 
 // Middleware
 app.use(
