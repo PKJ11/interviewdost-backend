@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://pratikkumarjhavnit:0vh0VaRm7BJlOGdF@cluster0.0zyfpgg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect(MONGODB_URI)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
