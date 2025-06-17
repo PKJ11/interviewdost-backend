@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // MongoDB Connection
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://pratikkumarjhavnit:0vh0VaRm7BJlOGdF@cluster0.0zyfpgg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://pratikkumarjhavnit:0vh0VaRm7BJlOGdF@cluster0.0zyfpgg.mongodb.net/interviewsathi?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(MONGODB_URI)
@@ -635,6 +635,14 @@ mongoose.connection.once("open", () => {
   seedInterviewers();
 });
 
+function handleError(res, error, message = "An error occurred") {
+  console.error(message, error);
+  res.status(500).json({
+    success: false,
+    message,
+    error: error.message
+  });
+}
 // Get available interviewers
 app.get("/api/interviewers/available", async (req, res) => {
   try {
@@ -668,6 +676,7 @@ app.get("/api/interviewers/available", async (req, res) => {
 
     res.json({ success: true, data: interviewers });
   } catch (error) {
+    console.log(error)
     handleError(res, error, "Failed to fetch interviewers");
   }
 });
