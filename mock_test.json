@@ -1,0 +1,2232 @@
+{
+  "Advanced_Commutation_MCQs": {
+    "id": "Advanced_Commutation_MCQs",
+    "title": "Advanced Commutation MCQs",
+    "description": "Auto-generated quiz from Advanced_Commutation_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "In Class C (Complementary Commutation), how is the commutation achieved?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "By using a pulse transformer",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "By using an external pulse source",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "By turning on one SCR to commutate the other using a charged capacitor",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "By letting supply voltage go to zero",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Which commutation class is most suitable for medium to high power applications?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Class A",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Class B",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Class D",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Class E",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Why is Class E (External Pulse Commutation) rarely used in practice?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It requires resonant load",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It is inefficient at low frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Due to complexity and high cost of pulse generation",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "It cannot handle high voltage",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Which commutation classes are best suited for high-frequency switching applications?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Class A and E",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Class B and D",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Class C and E",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Class A and D",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What is a major limitation of forced commutation circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They only work with AC",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They require a low switching frequency",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "They need additional gate drivers",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "They increase the turn-on time of SCR",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What does the commutation capacitor do in forced commutation circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Reduces gate power requirements",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Maintains constant current through SCR",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Generates reverse voltage across SCR to turn it off",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Filters noise in gate circuit",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What defines the commutation margin angle (?) in SCR operation?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Time between SCR turn-on and peak current",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Angle between SCR turn-off and zero crossing of voltage",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Phase shift between gate and anode current",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Time delay between capacitor charging and SCR conduction",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Why are IGBTs and MOSFETs preferred over SCRs in modern converters?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They have lower on-state losses",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They are self-commutating and simplify circuit design",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "They have integrated heat sinks",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "They operate at lower voltages",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "In HVDC systems, why is line commutation used with thyristors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To reduce switching frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Because it simplifies transformer design",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Because supply voltage naturally reverses for commutation",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To avoid using any passive components",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "What can be a result of commutation failure in thyristor-based circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Increased power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Reduced thermal dissipation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Overcurrent, circuit malfunction, and disrupted operation",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Delayed triggering of MOSFET",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Advanced_Synchronous_Motor_MCQs": {
+    "id": "Advanced_Synchronous_Motor_MCQs",
+    "title": "Advanced Synchronous Motor MCQs",
+    "description": "Auto-generated quiz from Advanced_Synchronous_Motor_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the torque-speed characteristic of a synchronous motor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Linear with speed",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Parabolic curve",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Flat at synchronous speed with zero torque below it",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Increases below synchronous speed",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Why are synchronous motors less suitable for variable load applications?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They consume too much power",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Speed varies with load",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They lose synchronism under load variation",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "They cannot be started",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How is power factor controlled in synchronous motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "By changing stator frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "By adjusting mechanical load",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "By adjusting excitation level",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "By varying number of poles",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What power factor condition does an over-excited synchronous motor exhibit?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Unity power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Lagging power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Leading power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Zero power factor",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What is the function of a synchronous motor when used as a synchronous condenser?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It generates electrical power",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It provides mechanical braking",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It supplies reactive power to improve power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "It controls voltage frequency",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Which of the following is TRUE about synchronous reluctance motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They use permanent magnets",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They require rotor windings",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They develop torque using rotor saliency",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "They operate only in generator mode",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Can synchronous motors operate in generator mode?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes, only when under-excited",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "No, they are motor-only devices",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Yes, above synchronous speed",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Only during startup",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "How does the load angle affect a synchronous motor's performance?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "A large angle improves stability",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "A small angle increases power losses",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Excessive angle can lead to loss of synchronism",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Load angle has no effect",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Why are synchronous motors preferred in textile and paper industries?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They are cheaper than induction motors",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They provide constant speed under varying load",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They generate higher torque",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "They can operate without excitation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "What happens to a synchronous motor when it is under-excited?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It operates at a leading power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It supplies reactive power",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It operates at a lagging power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "It turns into a generator",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Choppers_MCQ_Tough_Level_Set2": {
+    "id": "Choppers_MCQ_Tough_Level_Set2",
+    "title": "Choppers MCQ Tough Level Set2",
+    "description": "Auto-generated quiz from Choppers_MCQ_Tough_Level_Set2.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What distinguishes a Buck-Boost converter from Buck or Boost converters in terms of output polarity?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Same polarity and only steps down",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Same polarity and only steps up",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Reversed polarity and can step up or down",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "No polarity and variable output",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Where is a Buck-Boost converter most commonly used?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "When constant input and variable output are needed",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "When input voltage varies but fixed output is needed",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "When high frequency AC output is required",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "For purely step-up applications",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How does a dual converter enable bidirectional power flow?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "By using a single chopper with two switches",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "By combining buck and boost in one stage",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "By using two choppers: one for forward and one for reverse",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "By reversing diode direction dynamically",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What is the role of a freewheeling diode in chopper circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Controls the PWM signal",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Stores energy like an inductor",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Provides path for inductor current during OFF state",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Acts as a voltage multiplier",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Which component is NOT typically used to protect chopper circuits from voltage spikes?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Snubber circuit",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "MOV",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Freewheeling diode",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Thermistor",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is a primary advantage of soft switching over hard switching in chopper circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Increased voltage gain",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Lower circuit complexity",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Reduces heat and improves efficiency",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Requires no PWM control",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What is the function of a snubber circuit in a chopper?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Amplifies switching frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Absorbs inductive energy to prevent voltage spikes",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Controls duty cycle",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Boosts the output voltage",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Why are MOSFETs preferred in high-frequency chopper circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "High current capacity and slow switching",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Low frequency operation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Faster switching and lower conduction losses",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Inherent voltage regulation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "What is the main reason Buck converters are used in mobile chargers or power banks?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To increase the voltage efficiently",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To convert AC to DC",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To reduce USB voltage efficiently to battery voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To store energy in batteries",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Which of the following best describes hard switching in power electronics?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Switching occurs at zero current or voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Switch turns ON/OFF at peak power for maximum efficiency",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "High stress and loss due to switching at non-zero conditions",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Used only in step-down applications",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Choppers_MCQ_Tough_Level_Updated": {
+    "error": "'utf-8' codec can't decode byte 0xd7 in position 492: invalid continuation byte"
+  },
+  "Commutation_MCQs": {
+    "id": "Commutation_MCQs",
+    "title": "Commutation MCQs",
+    "description": "Auto-generated quiz from Commutation_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the primary purpose of commutation in power electronics?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To increase the voltage across SCRs",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To reduce power losses",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To transfer current from one SCR to another and turn off conducting SCRs",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To boost the gate signal strength",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Why can't a conducting thyristor (SCR) be turned off using a gate signal alone?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Gate signal is too weak",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "SCR requires AC voltage to turn off",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "SCR latches and remains on until current drops below holding current",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Gate signal is not synchronized with supply",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Which of the following is NOT a type of commutation technique in power electronics?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Natural Commutation",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Resonant Commutation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Pulse Width Modulated Commutation",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Forced Commutation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "In which scenario is natural commutation typically used?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "In DC chopper circuits",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "In AC to DC converters where supply voltage reverses naturally",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "In PWM inverters",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "In circuits with zero load current",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Why is forced commutation necessary in DC circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Because gate signals are ineffective in DC circuits",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Because voltage in DC does not naturally reverse",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "To increase efficiency of SCRs",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To ensure continuous conduction mode",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Which commutation class uses the load's LC resonance to turn off the SCR?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Class A",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Class B",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Class C",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Class D",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What is the principle of Class B (Self-Commutation) technique?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Using an external pulse",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Using LC circuit to reverse voltage across SCR",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Using a complementary SCR",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Using line frequency zero-crossing",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Which class of commutation involves an auxiliary SCR and capacitor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Class A",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Class C",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Class D",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Class E",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Which of the following circuits typically employs forced commutation?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Uncontrolled rectifiers",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "DC choppers and inverters",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "AC-AC converters",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Transformers",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "In natural commutation, when does the SCR turn off?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "When gate pulse is removed",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "When capacitor voltage becomes zero",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "When supply voltage naturally goes to zero",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "When auxiliary SCR is triggered",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "DC_Machines_MCQs": {
+    "id": "DC_Machines_MCQs",
+    "title": "DC Machines MCQs",
+    "description": "Auto-generated quiz from DC_Machines_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the function of a commutator in a DC machine?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Converts DC to AC",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Converts AC in the armature to unidirectional DC for external use",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Supplies field excitation",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Controls speed",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is the role of brushes in a DC machine?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Provide lubrication",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Cool the commutator",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Transfer current between rotating armature and external circuit",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Excite the field winding",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Why are carbon brushes preferred in DC machines?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "High thermal conductivity",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "High resistance to current",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Low weight",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Good lubricating property and reduced sparking",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "On which principle does a DC generator operate?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ohm's Law",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Lenz's Law",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Faraday?? Law of Electromagnetic Induction",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Ampere?? Law",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What is the EMF equation of a DC generator?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "E = [fZNP/60A]",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "E = [ZfPN/60]",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "E = [60Z/fNP]",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "E = [PNZf/60]",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is a separately excited DC generator?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "A generator with no field winding",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Field winding is powered by the armature",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Field winding is powered by an external DC source",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Field winding is powered by AC",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What is back EMF in a DC motor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Voltage aiding applied voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Emf that drives the load",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Emf that opposes applied voltage",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Residual emf in field winding",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Why should a DC series motor not run without load?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Low torque at no load",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It will stop automatically",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Speed increases dangerously due to reduced flux",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Field winding gets open-circuited",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "What is armature reaction in a DC machine?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Increase in field flux",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Weakening and distortion of main field flux",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Enhanced commutation",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Heating of armature",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "What is the function of compensation windings in DC machines?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Increase speed",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Provide backup field excitation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Neutralize armature reaction effects",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Prevent overheating",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "DC_Motor_MCQs": {
+    "id": "DC_Motor_MCQs",
+    "title": "DC Motor MCQs",
+    "description": "Auto-generated quiz from DC_Motor_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which of the following methods provides speed control above the rated speed in a DC motor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Armature resistance control",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Flux control method",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Voltage control method",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "None of the above",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Which method is used to decrease the speed of a DC motor below its rated speed?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Flux control method",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Voltage control method",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Armature resistance control",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Field weakening",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Which of the following is NOT an advantage of the flux control method?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Simple and economical",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Power loss in external resistance",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Wide speed control above rated speed",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Easy implementation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What is a major disadvantage of the armature resistance control method?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Complicated design",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "High speed control accuracy",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Poor efficiency due to I?R losses",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Requires additional voltage source",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Which DC motor starter has a separate field circuit for better control?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "2-point starter",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "3-point starter",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "4-point starter",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Manual starter",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is the role of the No-volt coil (NVC) in a DC motor starter?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Provides speed control",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Ensures power factor correction",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Prevents automatic restarting after power failure",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Improves torque",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Why are DC series motors preferred in traction applications?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Low maintenance",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "High efficiency at low speed",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Very high starting torque",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Constant speed characteristics",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "In regenerative braking, a DC motor:",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Acts as a resistor",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Acts as a generator",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Consumes more power",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Runs at full speed",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Which of the following is a constant loss in DC machines?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Armature copper loss",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Field copper loss",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Hysteresis loss",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Brush contact loss",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Which of the following is NOT a type of mechanical loss in DC machines?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Windage",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Bearing friction",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Eddy current loss",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "None of the above",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "electrical_materials_mcqs": {
+    "error": "'utf-8' codec can't decode byte 0xb0 in position 439: invalid start byte"
+  },
+  "Extended_Induction_Motor_MCQs": {
+    "id": "Extended_Induction_Motor_MCQs",
+    "title": "Extended Induction Motor MCQs",
+    "description": "Auto-generated quiz from Extended_Induction_Motor_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which of the following is NOT an advantage of three-phase induction motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rugged construction",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Inexpensive",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Requires frequent maintenance",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "High efficiency",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Why is speed control of three-phase induction motors considered complex?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Due to frequent power failure",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Speed remains constant and depends on supply frequency and poles",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They require batteries",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "They use brushes",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "What type of motor is commonly used in domestic appliances?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "DC motor",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Universal motor",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Single-phase induction motor",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Servo motor",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Which of the following is a type of single-phase induction motor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Stepper motor",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Split-phase motor",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "DC shunt motor",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Brushless DC motor",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Which is a valid speed control method for single-phase induction motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Changing stator voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Using brushes",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Varying supply frequency using VFD",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Adjusting cooling fan speed",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Why are induction motors used in ceiling fans instead of DC motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Require brushes for long life",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They are more expensive",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They are more robust and run directly on AC supply",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Need frequent lubrication",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What is the role of the capacitor in single-phase induction motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Stores mechanical energy",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Creates phase difference for rotating field",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Regulates voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Controls fan speed",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Why are induction motors not suitable for precision speed control?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They always run at synchronous speed",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Speed varies with load due to slip",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They require gears",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "They are too efficient",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Which starting method is commonly used in single-phase induction motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Capacitor start",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Rotor resistance start",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Star-delta start",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Stator voltage reduction",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Which of these is NOT a method to control speed in single-phase induction motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Changing pulley sizes",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Varying frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Using mechanical brakes",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Changing number of poles",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Induction_Motor_MCQs": {
+    "id": "Induction_Motor_MCQs",
+    "title": "Induction Motor MCQs",
+    "description": "Auto-generated quiz from Induction_Motor_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What principle does a 3-phase induction motor operate on?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Electrostatic induction",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Electromagnetic induction",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Capacitive coupling",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Magnetic repulsion",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is the effect of increasing the number of poles in a 3-phase induction motor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Increases synchronous speed",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Decreases synchronous speed",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Has no effect on speed",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Increases torque only",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How is a rotating magnetic field produced in a 3-phase induction motor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "By a single-phase winding",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "By using permanent magnets",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "By spatially separated 3-phase stator windings",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "By external excitation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Which of the following is a key feature of a squirrel cage rotor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Slip rings and brushes",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Externally connected resistors",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Short-circuited bars",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "High maintenance design",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Why are slip rings used in a wound rotor motor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To supply power to the stator",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To connect rotor winding to external resistance during startup",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To increase efficiency",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To reduce stator current",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Why is Direct-On-Line (DOL) starting avoided in large motors?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It increases motor lifespan",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It reduces torque",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It causes high inrush current",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "It improves power factor",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Which statement is true about DOL starting?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Used for motors > 10 kW",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Requires external starter circuit",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Suitable for small motors due to high starting current",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Minimizes inrush current",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "What is typically true about the starting torque of an induction motor?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It exceeds full load torque",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It is less than or equal to full load torque",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It is always zero",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "It is not affected by slip",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "At what point does maximum torque occur in a torque-slip curve?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "At zero slip",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "At full load",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "At a specific slip called breakdown slip",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "When slip is maximum",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Why does an induction motor draw more magnetizing current than a transformer?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Due to high copper losses",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Due to leakage flux",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Due to presence of air gap",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Due to low voltage supply",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+}
