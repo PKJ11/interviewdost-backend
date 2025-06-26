@@ -2228,5 +2228,2510 @@
         ]
       }
     ]
+  },
+  "Inverter_MCQ_Tough_Set1": {
+    "id": "Inverter_MCQ_Tough_Set1",
+    "title": "Inverter MCQ Tough Set1",
+    "description": "Auto-generated quiz from Inverter_MCQ_Tough_Set1.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which inverter type provides an output closest to utility-grade AC power and is ideal for all appliances?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Square wave inverter",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Modified sine wave inverter",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Pure sine wave inverter",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "PWM wave inverter",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What does a low Total Harmonic Distortion (THD) value indicate in an inverter output?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Less voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Better power quality and fewer harmonics",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Higher switching losses",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Less filtering required in the input",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "What happens if the inductive load connected to an inverter demands a high inrush current?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Output voltage increases",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Switching frequency reduces",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Inverter may shut down or overload",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "THD improves automatically",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "In a full-bridge inverter, which pair of switches must be turned on together to get positive output?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "S1 & S3",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "S2 & S4",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "S1 & S4",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "S2 & S3",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What is the purpose of a dead time in inverter switching?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Increase conduction loss",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Reduce filtering requirements",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Avoid shoot-through fault",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Boost output voltage",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Why is a freewheeling diode used in inverter circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To control the duty cycle",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To reduce power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To protect switches from inductive kickback",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To amplify gate signals",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Which waveform is produced by a bipolar PWM inverter?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Switches between 0 and +V only",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Switches between +V and -V",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Switches between 0 and -V only",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "DC with ripple",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Which type of load is most sensitive to harmonic distortion from an inverter?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Resistive load",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "LED light",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Inductive motor load",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Heater coil",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Which switching device is most suitable for high power inverter applications?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "BJT",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "MOSFET",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "SCR",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "IGBT",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "What parameter defines the inverter\u0092s ability to briefly handle high startup currents for motor loads?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Efficiency",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "THD",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Surge power capacity",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Base switching frequency",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Inverter_MCQ_Tough_Set2": {
+    "id": "Inverter_MCQ_Tough_Set2",
+    "title": "Inverter MCQ Tough Set2",
+    "description": "Auto-generated quiz from Inverter_MCQ_Tough_Set2.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the key advantage of unipolar PWM over bipolar PWM in inverters?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Higher harmonic distortion",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Lower switching speed",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Lower harmonics and higher efficiency",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Simpler circuitry",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Which inverter protection is triggered when battery polarity is reversed?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Overvoltage protection",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Reverse polarity protection",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Short-circuit protection",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Overcurrent protection",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Which driver IC is commonly used to control gate signals in inverter circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "LM7812",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "IR2110",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "TL431",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "LM358",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What is the main reason for introducing dead-time in inverter switching control?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Reduce output voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Increase load power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Prevent shoot-through in power switches",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Enhance electromagnetic interference",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What happens when an inverter is operated continuously at full rated load in a hot environment?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Improved thermal dissipation",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Reduced output frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Inverter may overheat or shut down",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "No effect on performance",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What type of waveform is ideal for powering sensitive medical equipment?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Square wave",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Modified sine wave",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Pure sine wave",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Triangular wave",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Which of the following is NOT a component typically found in inverter circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "LC Filter",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "MOSFET/IGBT Switches",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Optocoupler Gate Driver",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Alternator",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Why are IGBTs preferred over MOSFETs in high-power inverters?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Faster switching speed",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Better for low-voltage applications",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Can handle higher current and voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Lower gate drive requirement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "In an H-Bridge inverter, why must complementary switches not be ON simultaneously?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To ensure sinusoidal waveform",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To protect the load from overload",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To avoid shoot-through fault",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To minimize THD",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Which parameter in an inverter datasheet indicates the AC power it can deliver momentarily beyond its rating?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "THD",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Rated output voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Surge power rating",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Efficiency",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Inverter_PWM_Applications_MCQs": {
+    "id": "Inverter_PWM_Applications_MCQs",
+    "title": "Inverter PWM Applications MCQs",
+    "description": "Auto-generated quiz from Inverter_PWM_Applications_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Why are bridge circuits commonly used in inverter designs?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They reduce conduction losses",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They require fewer components",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They eliminate output transformers and support multiphase systems",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "They work only in low-voltage systems",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What distinguishes a full-bridge inverter from a half-bridge inverter?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Full-bridge requires a 3-wire DC supply",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Half-bridge uses 4 thyristors",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Full-bridge uses 4 thyristors and 4 diodes, and does not require a 3-wire supply",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Half-bridge is more power efficient",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "What are the two conduction modes in a 3-phase inverter?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "PWM and AM",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Parallel and Series Mode",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "180\u00b0 and 120\u00b0 conduction modes",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Single and Double Pulse Mode",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Why is controlling the output voltage in an inverter important for variable speed drives?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To control motor torque only",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To eliminate switching losses",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To maintain constant power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To vary the speed by controlling voltage proportional to frequency",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Which PWM technique provides the best harmonic performance?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Single-pulse width modulation",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Multiple-pulse width modulation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Sinusoidal-pulse width modulation",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Triangular PWM",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is a key disadvantage of single-pulse width modulation?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Requires complex control logic",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Cannot vary voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Produces high harmonic content",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Has unstable output voltage",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Why are phase-controlled rectifiers suitable for electrochemical processes like electroplating?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They increase plating speed",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They offer precise DC voltage and current control",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "They use fewer components",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "They are compatible with solar power",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "How do phase-controlled rectifiers improve efficiency in electric traction systems?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "By using high-frequency transformers",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "By ensuring unidirectional power flow",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "By supporting regenerative braking and torque control",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "By bypassing power conversion stages",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "What is the advantage of using a full-controlled rectifier in regenerative braking systems?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It maintains constant DC output",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It operates only in rectification mode",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It supports both rectification and inversion, allowing energy recovery",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "It has fewer switching losses",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "What is the purpose of a freewheeling diode in a DC motor circuit fed by a phase-controlled rectifier?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To provide overvoltage protection",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To regulate speed variation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To allow continuous current flow when thyristors turn off",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To limit the maximum output current",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "magnetic_materials_mcqs": {
+    "id": "magnetic_materials_mcqs",
+    "title": "magnetic materials mcqs",
+    "description": "Auto-generated quiz from magnetic_materials_mcqs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is retentivity in magnetic materials?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "The ability to become magnetized",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "The ability to resist demagnetization",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "The ability to retain magnetism after removing the external field",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "The field required to magnetize a material",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What does coercivity represent?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "The temperature at which magnetism is lost",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "The energy required to magnetize a material",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "The field required to demagnetize a magnetized material",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "The saturation point of a material",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "What are amorphous magnetic materials known for?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Crystalline structure and high coercivity",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Low hysteresis loss and high permeability",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Poor magnetic performance",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "High eddy current losses",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What is thermal aging in insulating materials?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Loss of magnetism due to heating",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Decrease in mechanical strength due to load",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Degradation of insulation over time due to heat",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Oxidation of copper conductors",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Which of the following are desirable properties in core materials used in electrical machines?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Low permeability and high resistivity",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "High permeability and low losses",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "High coercivity and high thermal expansion",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Low thermal conductivity and high eddy losses",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Why is silicon added to electrical steel used in machine cores?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To make steel cheaper",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To increase mechanical strength only",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To reduce hysteresis and eddy current losses",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To make steel non-magnetic",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Why are electrical machine cores laminated?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To reduce hysteresis loss only",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To increase magnetic saturation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To reduce eddy current losses",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To make the core flexible",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Which of the following correctly differentiates CRGO and CRNO steel?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "CRGO has random grain orientation; CRNO has aligned grains",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "CRGO is used in motors; CRNO in transformers",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "CRGO has lower magnetic loss and aligned grains; CRNO is used in rotating machines",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "CRNO is more expensive than CRGO",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "What is magnetic saturation?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Magnetic field inside a conductor",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "The point where flux density stops increasing with magnetizing force",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Initial magnetization of a material",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Loss of magnetic property with temperature",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Why is high magnetic permeability desired in core materials?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To increase core resistance",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To ensure better voltage regulation and low losses",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "To reduce the size of windings",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To improve insulation strength",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Rectifier_Applications_MCQs": {
+    "id": "Rectifier_Applications_MCQs",
+    "title": "Rectifier Applications MCQs",
+    "description": "Auto-generated quiz from Rectifier_Applications_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the primary reason bridge rectifiers are preferred in home appliances?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They cost less than center-tap types",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They require fewer diodes",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They use both halves of the AC waveform and don't require a center-tap transformer",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "They generate pure DC without ripple",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is a key drawback of using full-wave voltage doublers?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "High transformer utilization",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Low ripple frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "No common ground and reduced current output",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Requires center-tap transformer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Why are diodes not normally operated in the breakdown region?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Because it reduces forward voltage drop",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Because it causes excessive current and can damage the diode",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "To avoid phase shift",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To prevent noise in output waveform",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "If a 60 Hz AC supply is given to a full-wave rectifier, what will be the ripple frequency?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "30 Hz",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "60 Hz",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "90 Hz",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "120 Hz",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What is harmonic distortion in rectifier circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Reduction in output voltage due to heat",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Generation of non-sinusoidal currents affecting line power quality",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Improved efficiency at high frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Higher conduction losses in filters",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is the form factor of a full-wave rectifier output?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "1.57",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "2",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "1.11",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "0.707",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What happens if the filter capacitor in a rectifier circuit is too large?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Output voltage increases indefinitely",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Causes large inrush currents and physical size issues",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Reduces ripple to zero safely",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Makes rectifier suitable for AC-AC conversion",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "What is the crest factor and why is it important?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ratio of Vpeak to Vdc; determines load current",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Ratio of Vdc to Vrms; used in speed control",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Ratio of Vpeak to Vrms; indicates waveform peakiness and sizing of components",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Ratio of Vrms to Vpeak; shows filter requirement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Why do UPS systems need rectifiers?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To convert battery DC back to AC",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To reduce harmonic distortion",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To convert AC to DC for battery charging",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To regulate ripple in AC output",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "What could be the likely cause if a full-wave rectifier gives only 60 Hz ripple instead of 120 Hz?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Overloading of filter",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Improper transformer design",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "One or more diodes in the bridge are faulty",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Input frequency mismatch",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Rectifier_Basics_MCQs": {
+    "id": "Rectifier_Basics_MCQs",
+    "title": "Rectifier Basics MCQs",
+    "description": "Auto-generated quiz from Rectifier_Basics_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which of the following rectifiers has the highest Transformer Utilization Factor (TUF)?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Half-wave rectifier",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Full-wave center-tap rectifier",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Bridge rectifier",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Controlled half-wave rectifier",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is the main disadvantage of a half-wave rectifier in practical circuits?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It needs a center-tapped transformer",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It has poor voltage regulation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It wastes half of the input power and has high ripple",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "It requires multiple diodes",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Why does a center-tap full-wave rectifier require diodes with twice the PIV rating compared to a bridge rectifier?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Because of transformer losses",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Due to simultaneous conduction of both diodes",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Because each diode blocks the entire secondary voltage",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To allow voltage regulation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Which rectifier circuit provides the highest efficiency in converting AC to DC?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Half-wave rectifier",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Full-wave center-tap rectifier",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Full-wave bridge rectifier",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Voltage doubler circuit",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What is the role of a bleeder resistor in a filter circuit?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To increase ripple factor",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To discharge filter capacitors and maintain minimum current",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "To block AC components",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "To convert AC to DC",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Which of the following filters is most suitable for heavy load conditions?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Capacitor filter",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "RC filter",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Inductor (choke) filter",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Voltage regulator",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What does a ripple factor indicate in a rectifier output?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "The efficiency of voltage conversion",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "The quality of AC input signal",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "The percentage of AC content present in DC output",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "The ability of diodes to withstand PIV",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Which of the following statements about voltage multipliers is correct?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They use inductors for boosting voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They reduce the ripple content in output",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They produce output DC voltage greater than input AC peak",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "They require transformer isolation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Why is voltage regulation important in power supplies?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To control current ripple",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To vary the AC input frequency",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To ensure constant DC output regardless of load changes",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To isolate the load from supply",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "What is a distinguishing feature of a controlled rectifier over an uncontrolled one?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Uses bridge configuration only",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Uses SCRs to vary output voltage using firing angle",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Has lower ripple factor",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Does not require filtering",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Rectifier_Converter_MCQs": {
+    "id": "Rectifier_Converter_MCQs",
+    "title": "Rectifier Converter MCQs",
+    "description": "Auto-generated quiz from Rectifier_Converter_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the primary function of a freewheeling diode in a converter-fed motor circuit?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Reduce voltage ripple across the load",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Protect the motor from overcurrent",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Dissipate stored inductive energy and maintain current continuity",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Regulate output voltage during conduction",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is the output DC voltage expression for a full-controlled single-phase converter in terms of firing angle a?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "[Vm/p](1+cos a)",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "[Vm/2p](1-cos a)",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "[2Vm/p]cos a",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "[Vm/2p](1+cos a)",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Why is the input power factor of a half-controlled rectifier better than a full-controlled one for the same a?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It uses less inductance",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It returns less energy to the supply via freewheeling diode",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "It blocks harmonics more effectively",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "It uses synchronous commutation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Why are three-phase half-wave drives not commonly used in industries?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Low efficiency due to partial conduction",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Uncontrolled output power",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Presence of DC component in supply current causing distortion",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Complex triggering requirement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What is a key reason for preferring semiconverter systems in DC series motor drives?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They provide better voltage regulation",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They are simpler to design",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They ensure continuous current and better performance using freewheeling",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "They work well at high switching frequency",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Which type of AC motor control benefits most from AC regulators?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Series motors only",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Shunt motors only",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Universal motors only",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "AC induction motors due to fast and efficient voltage control",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Which of the following is true about phase control in AC voltage controllers?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Motor is connected for entire AC cycles",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Motor receives average voltage over full cycle",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Motor is connected for part of each AC cycle",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "It involves reversing motor polarity",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "What is the primary difference between a cycloconverter and an inverter?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cycloconverter uses PWM, inverter does not",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Cycloconverter converts DC to AC, inverter converts AC to DC",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Cycloconverter converts AC to lower frequency AC, inverter converts DC to AC",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Inverter works only for low-power systems",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Why are cycloconverters suited for high-power, low-speed motor drives?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "They reduce phase voltage",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "They use fewer semiconductors",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "They offer smooth low-frequency output without intermediate DC conversion",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "They eliminate the need for rectification",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "What is the disadvantage of circulating current mode in cycloconverters?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It results in slow switching",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It limits voltage gain",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It causes circulating currents requiring reactors",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "It cannot support braking mode",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Synchronous_Motor_MCQs": {
+    "error": "Could not process: 'Question'"
+  },
+  "Transformer_MCQs": {
+    "id": "Transformer_MCQs",
+    "title": "Transformer MCQs",
+    "description": "Auto-generated quiz from Transformer_MCQs.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "A transformer operates on which principle?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Coulomb\u0092s Law",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Lenz\u0092s Law",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Ohm\u0092s Law",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Faraday\u0092s Law of Electromagnetic Induction",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Why are transformer cores laminated?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "To reduce hysteresis loss",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "To increase magnetic flux",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "To reduce eddy current loss",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "To increase mechanical strength",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "What is the primary advantage of using silicon steel in transformer cores?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "High thermal conductivity",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "High electrical conductivity",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "High magnetic permeability and low hysteresis loss",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Low cost",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Which of the following is NOT a type of transformer based on function?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Power Transformer",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Distribution Transformer",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Series Transformer",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Instrument Transformer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What is the EMF equation of a transformer?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "E = 2pfN?m",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "E = fN/?m",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "E = 4.44fN?m",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "E = N?m/f",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is mutual induction?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Voltage induced in the same coil due to its own current",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "EMF induced due to frictional heating",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Induction of EMF in one coil due to changing current in another",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Static magnetic field causing voltage rise",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What happens when a transformer is energized without a load?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It draws high current",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It draws no current",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It draws small no-load current to supply core losses",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "It gets damaged due to overvoltage",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Why is the rating of a transformer given in kVA and not kW?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Transformer only handles current",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It depends only on power factor",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Losses depend on voltage and current, not power factor",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "It is a standard practice with no reason",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Which of the following is NOT a typical loss in a transformer?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Core Loss",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Copper Loss",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Dielectric Loss",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Commutation Loss",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "How is hysteresis loss in a transformer reduced?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "By using copper windings",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "By increasing core size",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "By using high-grade silicon steel",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "By oil cooling",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  "Transformer_MCQs_Set2": {
+    "id": "Transformer_MCQs_Set2",
+    "title": "Transformer MCQs Set2",
+    "description": "Auto-generated quiz from Transformer_MCQs_Set2.csv",
+    "timeInMinutes": 30,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the condition for maximum efficiency in a transformer?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Copper loss = 0",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Core loss = Copper loss",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Load is at full rating",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Power factor is unity",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is the formula for all-day efficiency of a transformer?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "(Output Power / Input Power) \u00d7 100%",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "(Total kWh Output / Total kWh Input) \u00d7 100%",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "(Total Load / Full Load) \u00d7 100%",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "(Iron Loss / Copper Loss) \u00d7 100%",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Which test is used to determine the core losses in a transformer?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sumpner\u0092s Test",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Load Test",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Short Circuit Test",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Open Circuit Test",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What does a negative voltage regulation indicate?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Lagging load",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Light load",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Capacitive (leading) load",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Overheating",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What does the vector group \u0091Dyn11\u0092 represent?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Star-star with 11\u00b0 lag",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Delta-star with 30\u00b0 lag",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Star-delta with 11\u00b0 lead",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Delta-delta with no phase shift",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is the function of the Buchholz relay in a transformer?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Voltage regulation",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Overload protection",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Gas-actuated internal fault protection",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Temperature monitoring",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What is unique about an autotransformer?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "It has two isolated windings",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "It uses air instead of oil",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "It uses a single winding for both primary and secondary",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "It operates only on DC",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Which of the following is a forced cooling method in transformers?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "ONAN",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "ONAF",
+            "isCorrect": true
+          },
+          {
+            "id": "c",
+            "text": "Yyn0",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Buchholz cooling",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "What is the role of tap changers in transformers?",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Detect internal faults",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Improve magnetic coupling",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Regulate output voltage",
+            "isCorrect": true
+          },
+          {
+            "id": "d",
+            "text": "Reduce losses",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Transformer oil is used for which of the following purposes? (Choose two correct options)",
+        "explanation": "",
+        "options": [
+          {
+            "id": "a",
+            "text": "Insulation",
+            "isCorrect": false
+          },
+          {
+            "id": "b",
+            "text": "Voltage regulation",
+            "isCorrect": false
+          },
+          {
+            "id": "c",
+            "text": "Arc suppression",
+            "isCorrect": false
+          },
+          {
+            "id": "d",
+            "text": "Reducing harmonics",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
   }
 }
